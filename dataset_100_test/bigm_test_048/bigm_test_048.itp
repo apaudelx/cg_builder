@@ -1,0 +1,26 @@
+[ moleculetype ]
+; name        nrexcl
+res           1
+
+[ atoms ]
+;    nr  type  resnr resid  atom  cgnr     charge       mass
+      1 TN4a        1 res   C1         1      0.000     36.000
+      2 P1          1 res   C2         2      0.000     72.000
+      3 P4          1 res   C3         3      0.000     72.000
+      4 SN6d        1 res   C4         4      0.000     54.000
+      5 P1          1 res   C5         5      0.000     72.000
+      6 SX4e        1 res   C6         6      0.000     54.000
+      7 TN6a        1 res   C7         7      0.000     36.000
+      8 TN4a        1 res   C8         8      0.000     36.000
+      9 TN1         1 res   C9         9      0.000     36.000
+
+[ bonds ]
+;  ai    aj   funct      b0(nm)          k(kJ/mol/nm^2)
+     1      2 1       0.2678          20000.0
+     2      3 1       0.2933          20000.0
+     1      4 1       0.3266          20000.0
+     1      5 1       0.2678          20000.0
+     3      6 1       0.2967          20000.0
+     3      7 1       0.2748          20000.0
+     7      8 1       0.2689          20000.0
+     8      9 1       0.2000          20000.0
